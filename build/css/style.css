@@ -2284,6 +2284,9 @@ select:-webkit-autofill:focus {
   -webkit-transition: all 600ms ease;
   -o-transition: all 600ms ease;
   transition: all 600ms ease; }
+  @media (min-height: 540px) {
+    .header-temp .menu ul {
+      overflow-y: inherit; } }
   .header-temp .menu ul a {
     color: #fff; }
   .header-temp .menu ul li {

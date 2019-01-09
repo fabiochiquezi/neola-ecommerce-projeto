@@ -168,7 +168,7 @@
       .numero-itens{
         margin-right: 12px;
       }
-      
+
       .numero-itens{
         position: static;
       }
@@ -189,6 +189,10 @@
       overflow-y: scroll;
       padding-top: 32px;
       transition: all 600ms ease;
+
+      @media(min-height: 540px){
+        overflow-y: inherit;
+      }
 
       a{
         color: #fff;
